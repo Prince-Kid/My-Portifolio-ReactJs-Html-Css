@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 75rem;
+   
+    margin:0 auto;
+    padding: 1rem 2rem;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.desktopMenuListItem{
+margin: 1rem;
+cursor: pointer;
+}
+.contact{
+    align-items: center;
+}
+.desktopMenuImg{
+    object-fit: cover;
+    width: 11rem;
+    height: 1rem;
+    margin:1rem;
+}
